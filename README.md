@@ -3,17 +3,17 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Cyclebreaker Naturals — Breaking the Painkiller Cycle</title>
-  <meta name="description" content="Cyclebreaker Naturals: Created by a father and veteran to offer safe, natural remedies for families. Bump Balm and more—healing without harm." />
+  <title>Bump Balm — Safe, Natural Relief for Moms-to-Be</title>
+  <meta name="description" content="Bump Balm: a gentle, plant-based relief blend for expectant mothers. Join the movement for safer, natural remedies." />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
   <style>
     :root{
       --bg:#faf6f1;
       --text:#2b2b2b;
       --muted:#6a6a6a;
-      --primary:#c97b2a;
+      --primary:#c97b2a;      /* golden amber */
       --primary-dark:#8c5620;
-      --accent:#3c6e71;
+      --accent:#3c6e71;       /* calming teal */
       --card:#fffaf3;
       --border:#e8dfd3;
       --shadow:0 10px 30px rgba(0,0,0,0.08);
@@ -112,128 +112,23 @@
     <section class="hero">
       <div class="container hero-inner">
         <div>
-          <div class="tag">Break the painkiller cycle • Plant-based • Family-first mission</div>
-          <h1>Healing, Not Harming: One Father’s Mission</h1>
-          <p class="sub">
-            My name is J. I’m a father, an artist, and a veteran who’s lived the cost of relying on painkillers. When I served, my knees were wrecked—two 800mg ibuprofens before every 5-mile run just to keep up. I wasn’t trying to look weak; I just didn’t have another option. Those pills got me through the moment, but they took a toll in the long run.<br><br>
-            Now, as a parent, I’m breaking that cycle. For my son, for myself, and for families everywhere—so no one has to choose between pain and risky relief.
-          </p>
+          <div class="tag">Prenatal-safe relief • Plant-based • Small batch</div>
+          <h1>Bump Balm: safe, natural relief for moms-to-be (and beyond)</h1>
+          <p class="sub">A gentle golden blend of turmeric, ginger, cinnamon, and raw honey—crafted to soothe, nourish, and protect.</p>
           <div class="cta">
-            <a class="btn btn-primary" href="#donate">Support Our Mission</a>
-            <a class="btn btn-outline" href="#subscribe">Get Early Access</a>
+            <a class="btn btn-primary" href="#donate">Support on GoFundMe</a>
+            <a class="btn btn-outline" href="#subscribe">Join the early access list</a>
           </div>
           <div style="margin-top:16px">
             <span class="pill">No artificial additives</span>
-            <span class="pill">People-first remedies</span>
+            <span class="pill">People-first mission</span>
             <span class="pill">Eco-friendly packaging</span>
           </div>
         </div>
         <div class="hero-card">
-          <img src="https://images.unsplash.com/photo-1512436991641-6745cdb1723f?q=80&w=1200&auto=format&fit=crop" alt="Bump Balm jar and box mockup">
+          <!-- Updated hero image -->
+          <img src="https://copilot.microsoft.com/th/id/BCO.9d923664-a35e-4f57-babb-038056d4e7a3.png" 
+               alt="Bump Balm product and packaging">
           <div style="display:flex; gap:12px; margin-top:12px">
-            <div class="badge">Made for families</div>
-            <div class="badge">Tested with herbalists</div>
-          </div>
-        </div>
-      </div>
-      <div class="container" style="margin-top:30px;">
-        <h2 class="section-title">Our Mission & Vision</h2>
-        <p>
-          Cyclebreaker Naturals revives the spirit of the alchemist—turning nature into medicine that heals without harm. Our mission is to offer families safe, natural ways to find comfort and relief, without the risks of conventional painkillers.<br><br>
-          <strong>Imagine a world where pain relief doesn’t come with a warning label. Where mothers can find comfort without fear. Where families choose remedies that heal, not harm.</strong><br>
-          With your help, we can make that world real.
-        </p>
-      </div>
-    </section>
-
-    <!-- PRODUCTS -->
-    <section id="products">
-      <div class="container">
-        <h2 class="section-title">The Product Family</h2>
-        <p class="section-sub">Gentle, effective blends for everyday comfort—starting with Bump Balm.</p>
-        <div class="grid products">
-          <div class="card">
-            <img src="https://images.unsplash.com/photo-1524592879378-00f07a629f5e?q=80&w=800&auto=format&fit=crop" alt="Bump Balm product">
-            <h3>Bump Balm</h3>
-            <div class="meta">Prenatal-safe comfort blend</div>
-            <div class="ingredients-list">
-              <span class="pill">Turmeric</span>
-              <span class="pill">Ginger</span>
-              <span class="pill">Cinnamon</span>
-              <span class="pill">Raw honey</span>
-            </div>
-            <p class="note">Gentle by design. Culinary-level spices. No willow bark.</p>
-          </div>
-          <div class="card">
-            <img src="https://images.unsplash.com/photo-1547514701-42782101795d?q=80&w=800&auto=format&fit=crop" alt="Pain? Willow It Away product">
-            <h3>Pain? Willow It Away</h3>
-            <div class="meta">General pain relief for everyday aches</div>
-            <div class="ingredients-list">
-              <span class="pill">White willow bark</span>
-              <span class="pill">Turmeric</span>
-              <span class="pill">Ginger</span>
-              <span class="pill">Black pepper</span>
-            </div>
-            <p class="note">Not for pregnancy. For adults only. 1 tsp, up to 3x/day.</p>
-          </div>
-          <div class="card">
-            <img src="https://images.unsplash.com/photo-1524592863891-8e98f9f1a30e?q=80&w=800&auto=format&fit=crop" alt="Turm It Down product">
-            <h3>Turm It Down</h3>
-            <div class="meta">Anti-inflammatory daily tonic</div>
-            <div class="ingredients-list">
-              <span class="pill">Turmeric</span>
-              <span class="pill">Ginger</span>
-              <span class="pill">Cinnamon</span>
-              <span class="pill">Black pepper</span>
-            </div>
-            <p class="note">Stir into warm milk or water—your daily wellness ritual.</p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- STORY -->
-    <section id="story">
-      <div class="container story">
-        <div>
-          <h2 class="section-title">Why I Created Bump Balm</h2>
-          <p>
-            I’ve seen firsthand how easy it is to rely on painkillers just to get through the day. In the military, I pushed through pain with pills—but paid the price in the long run.<br><br>
-            Now, as a father, I’m breaking that cycle for my son and for families everywhere. Cyclebreaker Naturals is about reviving the alchemist spirit—turning nature into medicine that heals without harm. Bump Balm is our first step: relief that nourishes, comforts, and protects.
-          </p>
-          <ul>
-            <li>Created for expectant mothers, with their safety in mind</li>
-            <li>Made with trusted, food-level ingredients</li>
-            <li>Developed with herbalists and nutritionists</li>
-          </ul>
-          <div class="quote">“Medicine should comfort today and protect tomorrow.”</div>
-          <div class="cta" style="margin-top:12px">
-            <a class="btn btn-primary" href="#donate">Support the launch</a>
-            <a class="btn btn-outline" href="#subscribe">Get early access</a>
-          </div>
-        </div>
-        <div class="hero-card">
-          <img src="https://images.unsplash.com/photo-1524593022611-49dc6c164db4?q=80&w=1200&auto=format&fit=crop" alt="Warm golden honey blend">
-          <div class="badge">People-first • Small batch • Transparent</div>
-        </div>
-      </div>
-    </section>
-
-    <!-- INGREDIENTS + SAFETY -->
-    <section>
-      <div class="container">
-        <h2 class="section-title">Ingredients & Safety</h2>
-        <p class="section-sub">Simple, recognizable ingredients—designed for comfort and care.</p>
-        <div class="grid" style="grid-template-columns:repeat(auto-fit,minmax(260px,1fr))">
-          <div class="qa">
-            <h3>What’s inside Bump Balm?</h3>
-            <p>Raw honey, turmeric, ginger, cinnamon, and a tiny pinch of black pepper. Culinary-level amounts crafted for gentle support.</p>
-          </div>
-          <div class="qa">
-            <h3>Pregnancy-safe approach</h3>
-            <p>No willow bark or aspirin-like herbs. Bump Balm focuses on soothing spices traditionally used in food.</p>
-          </div>
-          <div class="qa">
-            <h3>How to enjoy</h3>
-            <p>Stir ½–1 tsp into warm milk or water for a golden comfort drink. Or take a small spoonful as needed.</p>
-          </div>
+            <div class="badge">Crafted for comfort</div>
+            <
